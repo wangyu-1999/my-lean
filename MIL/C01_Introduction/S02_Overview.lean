@@ -2,6 +2,8 @@ import MIL.Common
 
 open Nat
 
+#eval 2 + 2
+
 -- These are pieces of data.
 #check 2 + 2
 
@@ -52,4 +54,3 @@ example : ∀ m n : Nat, Even n → Even (m * n) := by
 
 example : ∀ m n : Nat, Even n → Even (m * n) := by
   intros; simp [*, parity_simps]
-

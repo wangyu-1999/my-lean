@@ -8,3 +8,11 @@ name = "Mylean"
 [[lean_exe]]
 name = "mylean"
 root = "Main"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+
+[[lean_lib]]
+name = "MIL"
+srcDir = "."
